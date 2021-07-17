@@ -1,0 +1,43 @@
+.bgclass{
+    background-color: bisque;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#under{
+    /* padding-top: 20px; */
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width:500px) {
+    .yelbtn{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #topbar {
+        margin-left: 65px;
+    }
+}   
